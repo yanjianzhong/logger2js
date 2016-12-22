@@ -1,0 +1,37 @@
+.logConsole {moz-border-radius:7px;PADDING: 5px;top:0; left:0;text-align:left;z-index:2147483646}
+	.logConsole LEGEND {border:0px;margin:0px;padding:0px;background-color:transparent!important;background-image:none!important;line-height:18px;white-space : nowrap;FONT-WEIGHT: bold; FONT-SIZE: 12px;COLOR: #483D8B;FONT-FAMILY: tahoma,verdana,arial;}
+	.logConsole LEGEND A{text-decoration:none;color:#483D8B;cursor:pointer;padding:0px;margin:0px;border:0px;}
+	.logConsole LEGEND .logMark{border:solid 0px #778899;}
+	.logConsole LEGEND .logToolbar{position:absolute;right:15px;top:5px;font-weight:normal} 
+	.logConsole LEGEND .evalinput{font-family:tahoma;font-weight:bold;position:absolute;bottom:2px;color:#483D8B;left:80px;border:solid 0px #808080;width:303px;BORDER-LEFT: #BDB76B 1px solid;BORDER-RIGHT: #BDB76B 1px solid;BORDER-TOP: #483D8B 1px dotted;BORDER-BOTTOM: #483D8B 1px dotted;background:#FFFFFF} 
+	.logConsole LEGEND .evalrun{position:absolute;left:13px;bottom:2px;cursor:pointer;} 
+	.logConsole LEGEND .evalfind{left:45px;position:absolute;bottom:2px;cursor:pointer;} 
+
+.logHistory{margin-left:5px;margin-right:5px;white-space:nowrap;cursor:auto;OVERFLOW: auto;background-color:#000000;border:solid 1px #696969;padding-left:0;padding-right:6;scrollbar-face-color: #DBEBFE; scrollbar-shadow-color: #B8D6FA; scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #DBEBFE; scrollbar-darkshadow-color:#458CE4; scrollbar-track-color: #FFFFFF; scrollbar-arrow-color: #458CE4;}
+	.logHistory ul{LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 100%; TOP: 5px;}
+	.logHistory li{line-height:18px;BORDER-BOTTOM: lightslategray 1px dotted;PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: 12px;font-family:consolas,"lucida console",monospace; PADDING-TOP: 1px}
+	.logHistory li div{background-color:#F8F8FF;color:#2F4F4F;FONT-SIZE: 12px; font-family:consolas,"lucida console",monospace;}
+
+.logCorplogoInfo{font-family: "trebuchet MS",arial,helvetica;font-size: 11px;position: absolute;right: 30px;top:40px;color:#556B2F}
+.logCorplogoInfo h1{font-size: 14pt;font-style: italic;margin-bottom: 3px;}
+
+.logConsoleMinOver{border:3px solid #FFA500;color: #FFFF00;}
+.logMenu{border:1px solid #CCCCCC;text-align:left;background-color:#F0FFF0;padding:2px;font-size:9pt;overflow:hidden;position:absolute;display:none;top:0px;left:0px;width:200px;z-index:2147483647;}
+	.logMenuinfo{color:#483D8B;position: absolute;left:3px;bottom:3px;width:10px;font-family:tahoma;font-size: 12px;text-align:center;line-height:13px}
+	.logMenu ul,li{FONT-FAMILY:tahoma,Arial;FONT-SIZE: 12px;list-style:none;margin:0px;padding:0px;padding-top:1px;color:#2F4F4F;}
+	.logMenu ul{font-style: normal;background-color: #F6F9FD;color:#800000;border: 1px solid #a9a9a9;margin: -3px -3px -3px 15px;}
+	.logMenu li span{FONT-FAMILY:Arial;FONT-SIZE: 12px;text-decoration:underline;}
+
+.logMenuItem{list-style:none;margin:0px;padding:0px;height:21px;border: 1px solid #F6F9FD;line-height:21px;display:block;padding:0px;padding-left:10px;padding-right:10px;}
+.logMenuItemOver{cursor:default;border: 1px solid #C0C0C0;border-right-width:2px;background:url(images/hassub.gif) no-repeat 3% 50%;background-color:#778899;color:#F5FFFA;}
+.logMenuSeparator{width:165px;height:1px;line-height:1px;overflow:hidden;font-size:1px;background-color:#D3D3D3;margin:0px 0px 0px 10px;padding:0px;}
+.logMenuItemDisabled{color:#A9A9A9;cursor:default;}
+.JSLogKeeper{background-color:#191970;}
+.log_tools_off{width:37px;height:26px;position:absolute;z-index:2147483647}
+.log_tools_off span{width:28px;height:26px;float:left;cursor:pointer;background:url(images/over.gif) 0 0px;}
+.log_tools_off .off_logo_default{background-position:-52px 0px}
+.log_tools_off .off_logo_hover{background-position:-9px 0px}
+.log_tools_off .off_logo_mover{background-position:-95px 0px}
+span#log_tools_off_drag{width:9px;cursor:default}
+.log_arrow{position: absolute; left:11px;*left: 10px; top:-7px;*top: -10px;width: 0; height: 0; font-size: 0; border-width: 16px; border-style: dashed dashed solid dashed; border-color: transparent transparent #000000 transparent;}
+.log_icon{position: absolute;left: 18px; top: 15px;z-index:1;}
